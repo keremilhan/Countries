@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+input, button {
+    background-color: #fff;
+    border: none;
+    font-size: 1.2rem;
+    padding: 15px 20px;
+}
+
+input {
+    font-weight: bold;
+}
+
+input:focus {
+    outline: none;
+}
+
+body {
+    background-color: #82A0AA;
+}
+
+header{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+header h1{
+    text-align: center;
+}
+
+
+img{
+    width: 200px;
+}
+
+.country-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.country-card{
+    background-color: #7792A7;
+    width: 300px;
+    padding: 1rem;
+    border-radius: 15px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+
+}
+.card-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
