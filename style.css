@@ -29,11 +29,13 @@ input:focus {
 
 body {
     background-color: #82A0AA;
+    overflow: scroll;
 }
 
 header{
     margin-top: 2rem;
     font-size: 1.5rem;
+    height: 11vh;
 }
 
 header h1{
@@ -43,17 +45,20 @@ header h1{
 
 img{
     width: 200px;
+    height: 133px;
 }
 
 .country-container{
     display: flex;
     justify-content: center;
     margin-top: 4rem;
+    height: 40vh;
 }
 
 .country-card{
     background-color: #7792A7;
-    width: 300px;
+    min-width: 300px;
+    height: fit-content;
     padding: 1rem;
     border-radius: 15px;
     -webkit-box-shadow: 5px 5px 15px 5px #000000; 
@@ -73,4 +78,25 @@ img{
     align-items: flex-start;
     gap: 0.5rem;
     margin-top: 1rem;
+}
+
+.card-body p {
+    text-transform: capitalize;
+}
+
+.borders-container {
+    border-top: 10px solid #825F7F;
+    padding-top: 2rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    background-color: #907159;
+    min-height: 35.8vh;
+    height: fit-content;
+}
+
+i{
+    margin-right: 0.5rem;
 }
