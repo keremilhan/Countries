@@ -35,7 +35,7 @@ body {
 header{
     margin-top: 2rem;
     font-size: 1.5rem;
-    height: 11vh;
+    min-height: 11vh;
 }
 
 header h1{
@@ -52,7 +52,7 @@ img{
     display: flex;
     justify-content: center;
     margin-top: 4rem;
-    height: 40vh;
+    min-height: 40vh;
 }
 
 .country-card{
